@@ -1,0 +1,106 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 68, Failures: 34, Errors: 0, Skipped: 34, Time elapsed: 1.469 s <<< FAILURE! - in TestSuite
+setUp(auto.testcases.TestChallengingDomPage)  Time elapsed: 0.934 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestChallengingDomPage)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestChallengingDomPage)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestChallengingDomPage)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestLogin)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestLogin)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestLogin)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestLogin)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestHover)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestDropdownPage)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestKeyPresses)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestAlert)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestAlert)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestAlert)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestBasicAuth)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestCheckboxPage)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestCheckboxPage)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestCheckboxPage)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestInfiniteScroll)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestDisappearingElementsPage)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestDynamicLoadings)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestDynamicLoadings)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestWelcomePage)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestLargeDeepDOM)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestFileUploader)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestMultipleWindows)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestContextMenuPage)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestDragAndDrop)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestDynamicControls)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestDynamicControls)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestFrame)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestFrame)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestHorizontalSlider)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+
+setUp(auto.testcases.TestFileDownloader)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+

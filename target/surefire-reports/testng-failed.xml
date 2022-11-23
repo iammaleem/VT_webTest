@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="auto.testcases.TestDisappearingElementsPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testChallengingPage"/>
+        </methods>
+      </class> <!-- auto.testcases.TestDisappearingElementsPage -->
+      <class name="auto.testcases.TestContextMenuPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="testChallengingPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestContextMenuPage -->
+      <class name="auto.testcases.TestChallengingDomPage">
+        <methods>
+          <include name="testListOfButtons"/>
+          <include name="teardown"/>
+          <include name="testCellText"/>
+          <include name="setUp"/>
+          <include name="testChallengingPage"/>
+          <include name="testChallengingPageViaJava8"/>
+        </methods>
+      </class> <!-- auto.testcases.TestChallengingDomPage -->
+      <class name="auto.testcases.TestMultipleWindows">
+        <methods>
+          <include name="testFrame"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestMultipleWindows -->
+      <class name="auto.testcases.TestDragAndDrop">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testDragAndDrop"/>
+        </methods>
+      </class> <!-- auto.testcases.TestDragAndDrop -->
+      <class name="auto.testcases.TestFrame">
+        <methods>
+          <include name="testIFrame"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testFrame"/>
+        </methods>
+      </class> <!-- auto.testcases.TestFrame -->
+      <class name="auto.testcases.TestAlert">
+        <methods>
+          <include name="teardown"/>
+          <include name="testClickForJSAlert"/>
+          <include name="setUp"/>
+          <include name="testClickForJSPrompt"/>
+          <include name="testClickForJSConfirm"/>
+        </methods>
+      </class> <!-- auto.testcases.TestAlert -->
+      <class name="auto.testcases.TestBasicAuth">
+        <methods>
+          <include name="testBasicAuth"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestBasicAuth -->
+      <class name="auto.testcases.TestHover">
+        <methods>
+          <include name="testFrame"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestHover -->
+      <class name="auto.testcases.TestLogin">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testLoginByJava8Way"/>
+          <include name="testLoginUsingCssSelector"/>
+          <include name="testLoginUsingXpath"/>
+          <include name="testLoginWithInvalidUser"/>
+        </methods>
+      </class> <!-- auto.testcases.TestLogin -->
+      <class name="auto.testcases.TestDynamicControls">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testDynamicControlsRemove"/>
+          <include name="testDynamicControlsAdd"/>
+        </methods>
+      </class> <!-- auto.testcases.TestDynamicControls -->
+      <class name="auto.testcases.TestInfiniteScroll">
+        <methods>
+          <include name="teardown"/>
+          <include name="testFrame"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestInfiniteScroll -->
+      <class name="auto.testcases.TestFileDownloader">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testFrame"/>
+        </methods>
+      </class> <!-- auto.testcases.TestFileDownloader -->
+      <class name="auto.testcases.TestKeyPresses">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testKeyPresses"/>
+        </methods>
+      </class> <!-- auto.testcases.TestKeyPresses -->
+      <class name="auto.testcases.TestDynamicLoadings">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testDynamicLoadingsRender"/>
+          <include name="testDynamicLoadingsHidden"/>
+        </methods>
+      </class> <!-- auto.testcases.TestDynamicLoadings -->
+      <class name="auto.testcases.TestWelcomePage">
+        <methods>
+          <include name="testWelcomePage"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- auto.testcases.TestWelcomePage -->
+      <class name="auto.testcases.TestLargeDeepDOM">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testLargeDeepDOM"/>
+        </methods>
+      </class> <!-- auto.testcases.TestLargeDeepDOM -->
+      <class name="auto.testcases.TestHorizontalSlider">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testFrame"/>
+        </methods>
+      </class> <!-- auto.testcases.TestHorizontalSlider -->
+      <class name="auto.testcases.TestDropdownPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testDropdownPage"/>
+        </methods>
+      </class> <!-- auto.testcases.TestDropdownPage -->
+      <class name="auto.testcases.TestFileUploader">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="testFrame"/>
+        </methods>
+      </class> <!-- auto.testcases.TestFileUploader -->
+      <class name="auto.testcases.TestCheckboxPage">
+        <methods>
+          <include name="teardown"/>
+          <include name="testToSelectAllCheckboxes"/>
+          <include name="setUp"/>
+          <include name="testCheckboxPage"/>
+          <include name="testCheckboxViaSmartWay"/>
+        </methods>
+      </class> <!-- auto.testcases.TestCheckboxPage -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

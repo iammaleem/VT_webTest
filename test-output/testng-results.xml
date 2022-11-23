@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63751" started-at="2022-11-22T13:00:27 PKT" finished-at="2022-11-22T13:01:31 PKT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63751" started-at="2022-11-22T13:00:27 PKT" finished-at="2022-11-22T13:01:31 PKT">
+      <class name="auto.testcases.TestChallengingDomPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="setUp" is-config="true" duration-ms="14190" started-at="2022-11-22T13:00:27 PKT" finished-at="2022-11-22T13:00:42 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCellText()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="testCellText" duration-ms="1551" started-at="2022-11-22T13:00:42 PKT" finished-at="2022-11-22T13:00:43 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCellText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="teardown" is-config="true" duration-ms="78" started-at="2022-11-22T13:00:43 PKT" finished-at="2022-11-22T13:00:43 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="setUp" is-config="true" duration-ms="13235" started-at="2022-11-22T13:00:43 PKT" finished-at="2022-11-22T13:00:57 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChallengingPage()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="testChallengingPage" duration-ms="1314" started-at="2022-11-22T13:00:57 PKT" finished-at="2022-11-22T13:00:58 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChallengingPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="teardown" is-config="true" duration-ms="89" started-at="2022-11-22T13:00:58 PKT" finished-at="2022-11-22T13:00:58 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="setUp" is-config="true" duration-ms="11000" started-at="2022-11-22T13:00:58 PKT" finished-at="2022-11-22T13:01:09 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testChallengingPageViaJava8()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="testChallengingPageViaJava8" duration-ms="1375" started-at="2022-11-22T13:01:09 PKT" finished-at="2022-11-22T13:01:10 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChallengingPageViaJava8 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="teardown" is-config="true" duration-ms="76" started-at="2022-11-22T13:01:10 PKT" finished-at="2022-11-22T13:01:10 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="setUp" is-config="true" duration-ms="18362" started-at="2022-11-22T13:01:10 PKT" finished-at="2022-11-22T13:01:29 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testListOfButtons()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="testListOfButtons" duration-ms="2329" started-at="2022-11-22T13:01:29 PKT" finished-at="2022-11-22T13:01:31 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListOfButtons -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:auto.testcases.TestChallengingDomPage@32910148]" name="teardown" is-config="true" duration-ms="75" started-at="2022-11-22T13:01:31 PKT" finished-at="2022-11-22T13:01:31 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- auto.testcases.TestChallengingDomPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

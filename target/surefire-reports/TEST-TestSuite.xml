@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.469" tests="68" errors="0" skipped="34" failures="34">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/aleem/eclipse-workspace/WebFramework/JWAF/target/test-classes:/Users/aleem/eclipse-workspace/WebFramework/JWAF/target/classes:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/aleem/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/aleem/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/aleem/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/aleem/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/aleem/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/aleem/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/aleem/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/aleem/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/aleem/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/aleem/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/aleem/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/aleem/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/aleem/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0.jar:/Users/aleem/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="PK"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/aleem/eclipse-workspace/WebFramework/JWAF/target/surefire/surefirebooter2522140961145484846.jar /Users/aleem/eclipse-workspace/WebFramework/JWAF/target/surefire 2022-10-26T12-06-44_099-jvmRun1 surefire5962971421579686859tmp surefire_04044529302050605140tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/aleem/eclipse-workspace/WebFramework/JWAF/target/test-classes:/Users/aleem/eclipse-workspace/WebFramework/JWAF/target/classes:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/aleem/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/aleem/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/aleem/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/aleem/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/aleem/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/aleem/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/aleem/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/aleem/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/aleem/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/aleem/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/aleem/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/aleem/.m2/repository/org/testng/testng/7.0.0/testng-7.0.0.jar:/Users/aleem/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/aleem/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0.jar:/Users/aleem/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/aleem"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/aleem/eclipse-workspace/WebFramework/JWAF"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/aleem/eclipse-workspace/WebFramework/JWAF/target/surefire/surefirebooter2522140961145484846.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="user.name" value="aleem"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/aleem/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/q8/6t4tfmcs7ms085hv8g9bpy4h0000gn/T/"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="user.dir" value="/Users/aleem/eclipse-workspace/WebFramework/JWAF"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/aleem/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.ext.dirs" value="/Users/aleem/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="setUp" classname="auto.testcases.TestChallengingDomPage" time="0.934">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.756 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.759 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestChallengingDomPage" time="0.008">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.845 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.847 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.847 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestChallengingDomPage" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.849 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.850 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.850 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestChallengingDomPage" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.851 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.852 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.852 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testCellText" classname="auto.testcases.TestChallengingDomPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testChallengingPage" classname="auto.testcases.TestChallengingDomPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testChallengingPageViaJava8" classname="auto.testcases.TestChallengingDomPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testListOfButtons" classname="auto.testcases.TestChallengingDomPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestLogin" time="0.021">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.853 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.873 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.873 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestLogin" time="0.005">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.874 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.877 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.877 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestLogin" time="0.005">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.879 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.882 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.882 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestLogin" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.884 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.885 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.886 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginByJava8Way" classname="auto.testcases.TestLogin" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testLoginUsingCssSelector" classname="auto.testcases.TestLogin" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testLoginUsingXpath" classname="auto.testcases.TestLogin" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testLoginWithInvalidUser" classname="auto.testcases.TestLogin" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestHover" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.887 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.889 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.889 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testFrame" classname="auto.testcases.TestHover" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestDropdownPage" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.890 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.890 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.890 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testDropdownPage" classname="auto.testcases.TestDropdownPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestKeyPresses" time="0.005">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.893 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.894 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.894 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testKeyPresses" classname="auto.testcases.TestKeyPresses" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestAlert" time="0.001">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.895 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.896 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.896 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestAlert" time="0.005">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.897 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.900 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.900 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestAlert" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.903 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.904 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.904 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testClickForJSAlert" classname="auto.testcases.TestAlert" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testClickForJSConfirm" classname="auto.testcases.TestAlert" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testClickForJSPrompt" classname="auto.testcases.TestAlert" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestBasicAuth" time="0.004">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.906 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.906 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.906 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testBasicAuth" classname="auto.testcases.TestBasicAuth" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestCheckboxPage" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.909 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.911 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.911 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestCheckboxPage" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.912 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.913 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.913 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestCheckboxPage" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.915 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.916 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.916 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testCheckboxPage" classname="auto.testcases.TestCheckboxPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testCheckboxViaSmartWay" classname="auto.testcases.TestCheckboxPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testToSelectAllCheckboxes" classname="auto.testcases.TestCheckboxPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestInfiniteScroll" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.917 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.918 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.918 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testFrame" classname="auto.testcases.TestInfiniteScroll" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestDisappearingElementsPage" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.919 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.921 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.921 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testChallengingPage" classname="auto.testcases.TestDisappearingElementsPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestDynamicLoadings" time="0.005">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.923 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.925 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.926 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestDynamicLoadings" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.927 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.928 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.928 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testDynamicLoadingsHidden" classname="auto.testcases.TestDynamicLoadings" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testDynamicLoadingsRender" classname="auto.testcases.TestDynamicLoadings" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestWelcomePage" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.930 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.931 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.931 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomePage" classname="auto.testcases.TestWelcomePage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestLargeDeepDOM" time="0.004">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.933 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.935 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.935 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testLargeDeepDOM" classname="auto.testcases.TestLargeDeepDOM" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestFileUploader" time="0.001">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.936 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.936 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.936 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testFrame" classname="auto.testcases.TestFileUploader" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestMultipleWindows" time="0.001">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.937 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.937 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.937 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testFrame" classname="auto.testcases.TestMultipleWindows" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestContextMenuPage" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.939 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.940 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.940 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testChallengingPage" classname="auto.testcases.TestContextMenuPage" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestDragAndDrop" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.941 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.942 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.942 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testDragAndDrop" classname="auto.testcases.TestDragAndDrop" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestDynamicControls" time="0.004">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.946 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.946 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.947 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestDynamicControls" time="0.003">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.947 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.949 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.949 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testDynamicControlsAdd" classname="auto.testcases.TestDynamicControls" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testDynamicControlsRemove" classname="auto.testcases.TestDynamicControls" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestFrame" time="0.002">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.950 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.951 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.951 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestFrame" time="0">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.952 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.952 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.952 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testFrame" classname="auto.testcases.TestFrame" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="testIFrame" classname="auto.testcases.TestFrame" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestHorizontalSlider" time="0.001">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.953 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.953 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.953 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testFrame" classname="auto.testcases.TestHorizontalSlider" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+  <testcase name="setUp" classname="auto.testcases.TestFileDownloader" time="0.001">
+    <failure message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver
+</failure>
+    <system-out><![CDATA[[INFO ] 2022-10-26 12:06:45.953 [main] Init - # Teardown.
+[INFO ] 2022-10-26 12:06:45.954 [main] Init - # Setup.
+[INFO ] 2022-10-26 12:06:45.954 [main] DriverFactory - # WebDriver instance for browser: chrome
+]]></system-out>
+  </testcase>
+  <testcase name="testFrame" classname="auto.testcases.TestFileDownloader" time="0">
+    <skipped message="The driver executable does not exist: /Users/aleem/eclipse-workspace/WebFramework/JWAF/drivers/chromedriver"/>
+  </testcase>
+</testsuite>
