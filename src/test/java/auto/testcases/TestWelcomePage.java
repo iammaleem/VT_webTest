@@ -1,16 +1,19 @@
-package auto.testcases;
-
-import auto.pages.WelcomePage;
-import auto.utility.Init;
+package page.testcases;
 import org.testng.annotations.Test;
 
+import page.Objects.HomePage;
+import page.utilities.Init;
 
-public class TestWelcomePage extends Init {
+public class TestWelcomePage extends Init{
 
     @Test
     public void testWelcomePage() {
-        WelcomePage welcomePage = new WelcomePage(driver);
+    	HomePage welcomePage = new HomePage(driver);
         welcomePage.verifyWelcomePageTitle();
         welcomePage.verifyWelcomePageHeader();
+        welcomePage.clickOnLogo();
+        welcomePage.clickOnTryFree();
+
+
     }
 }
