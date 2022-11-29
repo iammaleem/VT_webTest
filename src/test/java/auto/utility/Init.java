@@ -11,7 +11,7 @@ import static org.apache.logging.log4j.LogManager.getLogger;
 
 public class Init extends DriverFactory {
 
-    private static final String URL = "http://the-internet.herokuapp.com/";
+    private static final String URL = "http://vdotok.com";
 
     protected WebDriver driver = null;
     private static final long IMPLICIT_TIME = 5;
