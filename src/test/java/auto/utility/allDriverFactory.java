@@ -1,4 +1,4 @@
-package auto.utility;
+package page.utilities;
 
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +10,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import static org.apache.logging.log4j.LogManager.getLogger;
 
 
-public class DriverFactory {
-    private static Logger logger = getLogger(DriverFactory.class.getName());
+public class allDriverFactory {
+    private static Logger logger = getLogger(allDriverFactory.class.getName());
 
     public WebDriver getDriver() {
         String browser = System.getProperty("browser");
